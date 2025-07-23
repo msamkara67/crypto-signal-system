@@ -1,0 +1,2 @@
+coin_updater_step1.py close verileriyle calisiyor
+coin_updater_step2.py anlik veriyle calisiyor
