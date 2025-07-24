@@ -25,7 +25,7 @@ archive/                   # Contains only deprecated or inactive scripts
 4. RSI signals, volatility, and volume-based alerts are then generated automatically in Excel.
 
 
-![Crypto Signal System Flow](https://raw.githubusercontent.com/msamkara67/crypto-signal-system/main/docs/Signal_System_Flow.png)
+![Crypto Signal System Flow](https://raw.githubusercontent.com/msamkara67/crypto-signal-system/main/docs/system_flow.png)
 
 ---
 
