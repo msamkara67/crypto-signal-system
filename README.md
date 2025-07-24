@@ -43,6 +43,31 @@ archive/                   # Contains only deprecated or inactive scripts
 - Trade simulator with logging
 - Interactive dashboard (optional, e.g. Streamlit)
 
+
+Usage
+date_picker.py dosyasını çalıştırarak tarih seçin:
+
+bash
+Copy
+Edit
+python date_picker.py
+Seçilen tarih otomatik olarak alınır ve:
+
+Kapanış ve hacim verileri toplanır (coin_updater_step2.py)
+
+Geçici coin_data_template.xlsx dosyasına kaydedilir
+
+Ardından coin_data_180days_top100.xlsx dosyasına transfer edilir
+
+RSI sinyalleri ve analizler Excel üzerinden otomatik hesaplanır
+
+Güncel dosyalar:
+
+XLSM_version.py dosyası üzerinden sunum/raporlama amaçlı .xlsm versiyon oluşturulur
+
+Yedekleme ve arşivleme işlemleri yapılır
+
+Not: Kodların düzgün çalışması için Excel dosyalarının kapalı olması gerekir.
 ---
 
 ## 📂 Archive
