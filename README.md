@@ -28,7 +28,15 @@ archive/                   # Contains only deprecated or inactive scripts
 <p align="center">
   <img src="docs/system_flow.png" alt="Crypto Signal System Flow" width="350"/>
 </p>
+---
 
+## Installation
+
+
+Clone the repository and install dependencies:
+
+```bash
+pip install -r requirements.txt
 ---
 ## 🔄 Python–VBA Integration
 
