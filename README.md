@@ -30,7 +30,16 @@ archive/                   # Contains only deprecated or inactive scripts
 </p>
 
 ---
+## 🔄 Python–VBA Integration
 
+This system leverages a seamless integration between Python and Excel (VBA):
+
+- Python scripts fetch market data and write it into structured `.xlsx` templates.
+- These templates are linked to `.xlsm` files, where custom VBA logic handles signal generation, formatting, and other automation tasks.
+
+This hybrid architecture combines Python's flexibility in data processing with Excel's interactive capabilities and familiar environment for users.
+
+---
 ## 🛠 Features
 
 - Daily close & volume data fetching (e.g. from yfinance)
