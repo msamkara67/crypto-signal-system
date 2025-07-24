@@ -24,6 +24,7 @@ archive/                   # Contains only deprecated or inactive scripts
 3. This data is first written into `coin_data_template.xlsx`, then transferred into `coin_data_180days_top100.xlsx`.
 4. RSI signals, volatility, and volume-based alerts are then generated automatically in Excel.
 
+![Crypto Signal System Flow](https://raw.githubusercontent.com/msamkara67/crypto-signal-system/main/docs/system_flow.png)
 ---
 
 ## 🛠 Features
