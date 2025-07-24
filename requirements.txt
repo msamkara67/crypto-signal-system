@@ -1,7 +1,6 @@
-openpyxl → Excel dosyalarıyla çalışmak için
 
-pandas → Veri işleme ve analiz için
+openpyxl
+xlwings
+tkcalendar
 
-yfinance → Finansal verileri çekmek için
 
-tk → tkinter GUI arayüzü için (bazı sistemlerde tk yerine tkinter gerekebilir ama pip için tk yeterli)
