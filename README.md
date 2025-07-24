@@ -1,4 +1,4 @@
-# 🤔 Crypto Signal System
+ 🤔 Crypto Signal System
 
 A Python-based technical analysis framework that integrates **Excel**, **RSI logic**, and **automated data gathering** to generate crypto trading signals.
 
@@ -24,7 +24,8 @@ archive/                   # Contains only deprecated or inactive scripts
 3. This data is first written into `coin_data_template.xlsx`, then transferred into `coin_data_180days_top100.xlsx`.
 4. RSI signals, volatility, and volume-based alerts are then generated automatically in Excel.
 
-![Crypto Signal System Flow](https://raw.githubusercontent.com/msamkara67/crypto-signal-system/main/docs/system_flow.png)
+
+![Crypto Signal System Flow](https://raw.githubusercontent.com/msamkara67/crypto-signal-system/main/docs/Signal_System_Flow.png)
 ---
 
 ## 🛠 Features
