@@ -98,7 +98,7 @@ coin_data_YYYYMMDD.xlsm → O güne özel grafik arşivi
 ## 📂 Dosya Yapısı (File Structure)
 
 Bu proje aşağıdaki temel dosya ve klasör yapısına sahiptir:
-
+```
 crypto-signal-system/
 │
 ├── coin_updater_step2.py # Ana script; tüm güncelleme ve analiz sürecini başlatır.
@@ -110,7 +110,7 @@ crypto-signal-system/
 │
 ├── auto_run.bat # Ana scripti çalıştırmak için kullanılabilecek BAT dosyası.
 └── README.md # Proje açıklamaları ve kullanım dokümantasyonu.
-
+```
 > 💡 *Not: Excel dosyaları VBA makroları içerdiğinden `.xlsm` uzantısıyla çalışır.*
 
 ---
