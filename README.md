@@ -58,7 +58,40 @@ Bu sistem:
 - Algoritmik düşünceyle teknik veriyi görselleştirmek,
 - Kullanıcıyı yorum yükünden kurtarmak,
 - Geçmiş sinyal döngülerini analiz edip canlıda test etmeyi amaçlamaktadır.
+---
+Kullanım (Usage)
+Bu sistem, kullanıcıdan bir tarih alarak o tarihe ait coin kapanış fiyatı ve hacim verilerini çeker ve otomatik sinyal analizleriyle Excel üzerinde sunar.
 
+✅ Adımlar:
+Ana scripti çalıştırın:
+
+bash
+Copy
+Edit
+python coin_updater_step2.py
+Açılan arayüzde işlem yapılmak istenen tarihi seçin ve onaylayın.
+
+Sistem şu işlemleri otomatik olarak yapar:
+
+Seçilen tarihin verilerini canlı olarak yfinance üzerinden çeker.
+
+Verileri önce coin_data_template.xlsx dosyasına yazar.
+
+Ardından bu verileri analiz dosyası olan coin_data_180days_top100.xlsx dosyasına aktarır.
+
+RSI, MA ve hacim tabanlı sinyallerin üretimini tetikler.
+
+Günlük grafikler için dinamik VBA kodları oluşturur ve .xlsm formatında arşiv dosyası üretir.
+
+Günlük analiz dosyasını otomatik olarak açar.
+
+Sonuç:
+
+coin_data_180days_top100.xlsx → Güncel sinyal tablosu
+
+coin_data_YYYYMMDD.xlsm → O güne özel grafik arşivi
+
+Tüm işlemler Python, Excel ve VBA’nın birlikte çalıştığı hibrit bir mimaride gerçekleşir
 ---
 
 ## 👤 Geliştirici
