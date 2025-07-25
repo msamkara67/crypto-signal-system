@@ -58,8 +58,11 @@ Bu sistem:
 - Algoritmik düşünceyle teknik veriyi görselleştirmek,
 - Kullanıcıyı yorum yükünden kurtarmak,
 - Geçmiş sinyal döngülerini analiz edip canlıda test etmeyi amaçlamaktadır.
+- 
 ---
-Kullanım (Usage)
+
+
+## 📌 Kullanım (Usage)
 Bu sistem, kullanıcıdan bir tarih alarak o tarihe ait coin kapanış fiyatı ve hacim verilerini çeker ve otomatik sinyal analizleriyle Excel üzerinde sunar.
 
 ✅ Adımlar:
