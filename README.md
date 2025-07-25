@@ -60,7 +60,18 @@ Bu sistem:
 - Geçmiş sinyal döngülerini analiz edip canlıda test etmeyi amaçlamaktadır.
 - 
 ---
+## 💡 Sistemin İşleyişi (How It Works)
 
+Bu sistem Python scriptleri, Excel ve VBA'nın birlikte çalıştığı hibrit bir mimaride geliştirilmiştir. Kullanıcıdan bir tarih alınarak:
+
+1. İlgili günün coin kapanış fiyatları ve hacim verileri sistemden çekilir.
+2. Bu veriler geçici bir ara dosyada toplanır ve ardından analiz dosyasına aktarılır.
+3. Excel tarafında RSI, hacim ve hareketli ortalamalara dayalı teknik veriler işlenir.
+4. Otomatik olarak al-sat sinyalleri üretilir ve coin bazlı grafiklerle görselleştirilir.
+5. VBA yardımıyla grafikler dinamik olarak formatlanır ve `.xlsm` uzantılı rapor dosyası otomatik arşivlenir.
+
+Bu yapı sayesinde geçmiş sinyaller analiz edilebilir, grafiksel takibi kolaylaştırılır ve algoritmik düşünce test edilebilir hale gelir.
+---
 
 ## 📌 Kullanım (Usage)
 Bu sistem, kullanıcıdan bir tarih alarak o tarihe ait coin kapanış fiyatı ve hacim verilerini çeker ve otomatik sinyal analizleriyle Excel üzerinde sunar.
@@ -68,9 +79,6 @@ Bu sistem, kullanıcıdan bir tarih alarak o tarihe ait coin kapanış fiyatı v
 ✅ Adımlar:
 Ana scripti çalıştırın:
 
-bash
-Copy
-Edit
 python coin_updater_step2.py
 Açılan arayüzde işlem yapılmak istenen tarihi seçin ve onaylayın.
 
@@ -112,6 +120,7 @@ crypto-signal-system/
 └── README.md # Proje açıklamaları ve kullanım dokümantasyonu.
 ```
 > 💡 *Not: Excel dosyaları VBA makroları içerdiğinden `.xlsm` uzantısıyla çalışır.*
+---
 
 ---
 
