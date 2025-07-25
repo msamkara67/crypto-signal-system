@@ -1,4 +1,4 @@
-# 📊 Crypto Signal System
+  # 📊 Crypto Signal System
 
 **Crypto Signal System**, Python + Excel + VBA işbirliğiyle çalışan, kullanıcı etkileşimli bir teknik analiz ve otomatik sinyal üretim sistemidir. 180 günlük geçmiş veriye dayanarak RSI, hacim, hareketli ortalamalar ve volatilite gibi göstergelerle işlem kararlarını destekleyen grafikler ve uyarılar üretir.
 
@@ -109,9 +109,7 @@ crypto-signal-system/
 ├── coin_data_180days_top100.xlsm # Ana analiz dosyası; grafikler, sinyaller ve veriler burada toplanır.
 │
 ├── auto_run.bat # Ana scripti çalıştırmak için kullanılabilecek BAT dosyası.
-│
 └── README.md # Proje açıklamaları ve kullanım dokümantasyonu.
-
 
 > 💡 *Not: Excel dosyaları VBA makroları içerdiğinden `.xlsm` uzantısıyla çalışır.*
 
