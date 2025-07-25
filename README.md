@@ -93,6 +93,29 @@ Sonuç:
 coin_data_180days_top100.xlsx → Güncel sinyal tablosu
 
 coin_data_YYYYMMDD.xlsm → O güne özel grafik arşivi
+---
+
+## 📂 Dosya Yapısı (File Structure)
+
+Bu proje aşağıdaki temel dosya ve klasör yapısına sahiptir:
+
+crypto-signal-system/
+│
+├── coin_updater_step2.py # Ana script; tüm güncelleme ve analiz sürecini başlatır.
+├── date_picker.py # Kullanıcıdan tarih alır ve ara dosyaya yazar.
+├── XLSM_version.py # Grafik düzenleme VBA kodunu oluşturur ve çalıştırır.
+│
+├── coin_data_template.xlsx # Güncel verilerin ilk yazıldığı geçici ara dosya.
+├── coin_data_180days_top100.xlsm # Ana analiz dosyası; grafikler, sinyaller ve veriler burada toplanır.
+│
+├── auto_run.bat # Ana scripti çalıştırmak için kullanılabilecek BAT dosyası.
+│
+└── README.md # Proje açıklamaları ve kullanım dokümantasyonu.
+
+
+> 💡 *Not: Excel dosyaları VBA makroları içerdiğinden `.xlsm` uzantısıyla çalışır.*
+
+---
 
 Tüm işlemler Python, Excel ve VBA’nın birlikte çalıştığı hibrit bir mimaride gerçekleşir
 ---
