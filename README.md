@@ -53,6 +53,9 @@ Run `date_picker.py` → User selects a target date.
 * `Charts` page → Dynamic visuals by coin
 * `RSI` page → Categorized RSI/MA/Volume/Volatility alerts
 * Archived Excel report per update in `/archive`
+  
+<img width="1558" height="773" alt="image" src="https://github.com/user-attachments/assets/0023e440-e440-43bb-9248-5d15c11858d4" />
+
 
 ---
 
