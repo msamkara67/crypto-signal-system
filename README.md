@@ -98,7 +98,16 @@ Bu sistem, Python scriptleri, Excel ve VBA'nın birlikte çalıştığı hibrit 
 5. VBA ile grafikler dinamik olarak formatlanır ve `.xlsm` uzantılı arşiv dosyası oluşturulur.
 
 Bu yapı sayesinde geçmiş sinyaller analiz edilebilir, grafiksel takibi kolaylaştırılır ve algoritmik düşünce test edilebilir hale gelir.
+---
 
+## 📊 Örnek Çıktılar (Sample Outputs)
+
+### RSI Tablosu ve Grafik Analizi
+
+Coin bazlı grafiklerde RSI, fiyat, hacim, MA değerleri ve volatilite analizi birlikte görselleştirilir:
+
+![RSI ve WLD Grafik](https://github.com/msamkara67/crypto-signal-system/assets/673ea5e5-6e54-4bef-8e03-8ad0e3523608)
+_Görselde hem teknik analiz tablosu hem de seçilen coine ait dinamik grafik görünmektedir._
 ---
 
 ## 📌 Kullanım (Usage)
