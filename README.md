@@ -133,7 +133,23 @@ coin_data_YYYYMMDD.xlsm → O güne özel grafik arşivi
 Tüm işlemler Python, Excel ve VBA’nın birlikte çalıştığı hibrit bir mimaride gerçekleşir
 
 ---
+## 📊 Örnek Çıktılar (Sample Outputs)
 
+Sistem çalıştırıldığında, her coin için hem teknik sinyaller hem de grafiksel analiz çıktıları otomatik üretilir.
+
+### 1. Teknik Sinyal Tablosu
+
+Aşağıda, RSI değerlerine göre oluşturulmuş bir sinyal tablosu örneği yer almaktadır:
+
+![RSI Signal Table](https://github.com/msamkara67/crypto-signal-system/assets/xxxxx/RSI-sample.png)
+
+### 2. Grafik Çıktısı
+
+Coin bazlı grafiklerde RSI, fiyat, hacim, MA değerleri ve volatilite analizi birlikte görselleştirilir:
+
+![WLD Graph](https://github.com/msamkara67/crypto-signal-system/assets/yyyyy/WLD-graph-sample.png)
+
+---
 ## ✅ Notlar
 
 - 🔒 Tüm dosyalar yerelde çalışmak üzere yapılandırılmıştır.  
