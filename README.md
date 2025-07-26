@@ -148,6 +148,8 @@ Aşağıda, RSI değerlerine göre oluşturulmuş bir sinyal tablosu örneği ye
 Coin bazlı grafiklerde RSI, fiyat, hacim, MA değerleri ve volatilite analizi birlikte görselleştirilir:
 
 ![WLD Graph](https://github.com/msamkara67/crypto-signal-system/assets/yyyyy/WLD-graph-sample.png)
+<img width="1306" height="765" alt="image" src="https://github.com/user-attachments/assets/f697d8a9-87ed-4fef-ad12-9b34fd536e3f" />
+<img width="1600" height="777" alt="image" src="https://github.com/user-attachments/assets/0969da6c-123c-4bd0-af3a-ba1d3b3222b1" />
 
 ---
 ## ✅ Notlar
