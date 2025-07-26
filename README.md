@@ -53,7 +53,10 @@ Run `date_picker.py` → User selects a target date.
 * `Charts` page → Dynamic visuals by coin
 * `RSI` page → Categorized RSI/MA/Volume/Volatility alerts
 * Archived Excel report per update in `/archive`
-  
+* 
+ ### 📸 Sample Preview
+Coin bazlı grafiklerde RSI, fiyat, hacim, MA değerleri ve volatilite analizi birlikte görselleştirilir: 
+
 <img width="1558" height="773" alt="image" src="https://github.com/user-attachments/assets/0023e440-e440-43bb-9248-5d15c11858d4" />
 <img width="1344" height="533" alt="image" src="https://github.com/user-attachments/assets/ea8acbc5-ab27-49f4-a0b6-a80242e375bc" />
 
