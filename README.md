@@ -89,13 +89,13 @@ crypto-signal-system/
 
 ## 💡 Sistemin İşleyişi (How It Works)
 
-Bu sistem Python scriptleri, Excel ve VBA'nın birlikte çalıştığı hibrit bir mimaride geliştirilmiştir. Kullanıcıdan bir tarih alınarak:
+Bu sistem, Python scriptleri, Excel ve VBA'nın birlikte çalıştığı hibrit bir mimaride geliştirilmiştir. Kullanıcıdan bir tarih alınarak:
 
-1. İlgili günün coin kapanış fiyatları ve hacim verileri sistemden çekilir.
+1. İlgili güne ait coin kapanış fiyatları ve işlem hacmi sistemden çekilir.
 2. Bu veriler geçici bir ara dosyada toplanır ve ardından analiz dosyasına aktarılır.
-3. Excel tarafında RSI, hacim ve hareketli ortalamalara dayalı teknik veriler işlenir.
-4. Otomatik olarak al-sat sinyalleri üretilir ve coin bazlı grafiklerle görselleştirilir.
-5. VBA yardımıyla grafikler dinamik olarak formatlanır ve `.xlsm` uzantılı rapor dosyası otomatik arşivlenir.
+3. Excel tarafında RSI, hacim ve hareketli ortalamalara dayalı teknik analizler gerçekleştirilir.
+4. Otomatik olarak al/sat sinyalleri üretilir ve coin bazlı grafikler oluşturulur.
+5. VBA ile grafikler dinamik olarak formatlanır ve `.xlsm` uzantılı arşiv dosyası oluşturulur.
 
 Bu yapı sayesinde geçmiş sinyaller analiz edilebilir, grafiksel takibi kolaylaştırılır ve algoritmik düşünce test edilebilir hale gelir.
 
