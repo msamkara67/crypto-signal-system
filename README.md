@@ -1,43 +1,110 @@
-## 💡 Crypto Signal System
+# 💡 Crypto Signal System
 
-A Python + Excel + VBA hybrid system that automatically generates technical analysis charts and buy/sell signals for top cryptocurrencies using Green/Red RSI, Moving Averages, and Volume trends.
+A hybrid trading analysis system that combines Python, Excel, and VBA to automatically generate technical analysis signals (RSI, MA crossovers, Volume trends) for top cryptocurrencies. Outputs include a dynamic Excel dashboard with backtest-ready charts.
+
+---
 
 ## 🔍 Overview
 
-This project automates the collection, analysis, and visualization of crypto market data. It uses Python scripts to fetch live or historical data from Yahoo Finance, processes it through Excel, and finally produces:
+This project automates the collection and analysis of cryptocurrency market data using a Python → Excel → VBA pipeline. The system fetches OHLCV data from Yahoo Finance, processes technical indicators in Excel (with macros and formulas), and generates:
 
-* RSI, MA7, MA25, MA99 charts  
-* Volume & Volatility trends  
-* Automated Buy/Sell signal labeling
+* RSI (Relative Strength Index) analysis with threshold-based signals
+* Moving Averages (MA7, MA25, MA99) and crossover detection
+* Volume spikes and 3-day RSI volatility alerts
+* A dynamic Excel dashboard for daily review or backtesting
 
-![Crypto Dashboard](docs/graph01.png)  
-![Crypto Dashboard](docs/table01.png)  
-
-The final output is a polished Excel dashboard (with embedded macros and dynamic charts) ready for daily review or backtesting.
+> 📌 Currently supports up to 100 coins with 180-day history per coin.
 
 ---
 
 ## ✅ Features
 
-- Fully automated data update pipeline  
-- RSI-based system with threshold classification  
-- MA crossover detection (Golden/Death Cross)  
-- Volume and volatility signals  
-- Dynamic Excel dashboard per coin  
-- Data archive system with daily XLSM exports  
+* 🔄 Fully automated data pipeline (Yahoo Finance → Excel)
+* 📉 RSI-based classification (Buy/Sell/Warning signals)
+* �� MA crossover detection (Golden/Death Cross logic)
+* 📊 Volume and 3-day RSI volatility signals
+* 📈 Coin-wise dynamic dashboards with interactive charts
+* 🗂️ Daily XLSM archive generation for historical tracking
 
 ---
 
 ## 🔁 System Flow
 
-![System Flow](docs/system_flow.png)
-
-1. Python fetches raw OHLCV data from Yahoo Finance  
-2. Excel macros and formulas calculate RSI, MA, and Volume metrics  
-3. Buy/Sell signals and visual charts are updated per coin  
-4. Output is archived with transparent charts + checkboxes  
+1. **Python Script** fetches OHLCV data for each coin from Yahoo Finance.
+2. **Excel Macros** process RSI, Moving Averages, Volume, and Volatility metrics.
+3. **Buy/Sell signals** are generated based on threshold rules.
+4. **Dynamic Charts** are refreshed for each coin.
+5. **Dashboard XLSM** is exported and archived daily.
 
 ---
 
 ## 📁 Folder Structure
+
+```
+crypto-signal-system/
+├── scripts/                    # Python scripts for data fetching and signal generation
+│   ├── coin_updater_debug.py
+│   ├── generate_rsi_signals.py
+│   └── archive_backup.py
+├── excel_templates/
+│   └── coin_data_template.xlsx
+├── data/
+│   └── coin_data_180days_top100.xlsx
+├── archive/
+│   └── (Daily XLSM exports)
+├── README.md
+├── LICENSE
+└── requirements.txt
+```
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Requirements
+
+* Python 3.10+
+* Excel with macro support (.xlsm compatibility)
+* Packages:
+
+  * `openpyxl`
+  * `pandas`
+  * `tkinter` (for UI)
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ Running the System
+
+```bash
+python main_controller.py
+```
+
+This will prompt a calendar input to select the date and trigger full pipeline:
+
+* Data fetch
+* Signal generation
+* XLSM export
+
+---
+
+## 📷 Sample Output
+
+> *(Insert chart image or sample dashboard here)*
+
+---
+
+## 👤 Author
+
+**Muhammet Samkara**
+GitHub: [@msamkara67](https://github.com/msamkara67)
+
+---
+
+## 🧪 License
+
+This project is licensed under the MIT License.
 
