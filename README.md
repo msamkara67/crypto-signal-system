@@ -75,6 +75,8 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+> ℹ️ Note: `tkinter` is included with most Python installations. If you experience issues, try installing `tk` via pip or consult your OS's Python GUI support.
+
 ```
 
 ### ▶️ Running the System
