@@ -93,8 +93,14 @@ This will prompt a calendar input to select the date and trigger full pipeline:
 
 ## 📷 Sample Output
 
-<img width="1557" height="794" alt="graph01" src="https://github.com/user-attachments/assets/73136c5c-9ce4-4213-9f99-f3e92d72ed51" />
-<img width="1728" height="448" alt="table01" src="https://github.com/user-attachments/assets/878a2422-df1a-4010-a99b-5898762ee79a" />
+## 📷 Sample Output
+
+### 📊 RSI + MA + Volume Chart
+![Dashboard Chart](docs/graph01.png)
+
+### 📋 Excel Dashboard Snapshot
+![Dashboard Table](docs/table01.png)
+
 ---
 
 ## 👤 Author
