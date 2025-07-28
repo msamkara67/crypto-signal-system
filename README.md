@@ -98,9 +98,7 @@ This will prompt a calendar input to select the date and trigger full pipeline:
 
 ### 📋 Excel Dashboard Snapshot
 ![Dashboard Table](docs/table01.png)
-
 ---
-
 ## 👤 Author
 
 **Muhammet Samkara**
