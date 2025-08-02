@@ -96,7 +96,22 @@ This will prompt a calendar input to select the date and trigger full pipeline:
 ## 📷 Sample Output
 
 ### 📊 RSI + MA + Volume Chart
+### 📈 MA(7) - MA(25) - MA(99)
+![MA7](./MA7.png)
+![MA99](./MA99.png)
 
+### 📊 RSI + DCV
+![DCV](./DCV.png)
+
+### 📉 Bollinger Bands Snapshot
+![Bnads](./Bnads.png)
+
+### 📊 MACD Histogram
+![MACD](./MACD.png)
+
+### 📊 ADX + DI+ / DI-
+![ADX](./ADX.png)
+![DI](./DI.png)
 
 ### 📋 Excel Dashboard Snapshot
 
@@ -111,5 +126,6 @@ GitHub: [@msamkara67](https://github.com/msamkara67)
 ## 🧪 License
 
 This project is licensed under the MIT License.
+
 
 
