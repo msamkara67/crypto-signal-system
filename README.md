@@ -19,7 +19,6 @@ This project automates the collection and analysis of cryptocurrency market data
 
 ## ✅ Features
 
-✅ Features
 🔁 Fully automated data pipeline
 Seamlessly fetches crypto data (OHLCV) from Binance API and stores it in Excel sheets.
 
@@ -144,6 +143,7 @@ GitHub: [@msamkara67](https://github.com/msamkara67)
 ## 🧪 License
 
 This project is licensed under the MIT License.
+
 
 
 
