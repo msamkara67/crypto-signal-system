@@ -95,7 +95,7 @@ This will prompt a calendar input to select the date and trigger full pipeline:
 
 ## 📷 Sample Output
 
-### 📊 RSI + MA + Volume Chart
+### 📊 Charts
 ### 📈 MA(7) - MA(25) - MA(99)
 ![MA7](./MA7.png)
 ![MA99](./MA99.png)
@@ -126,6 +126,7 @@ GitHub: [@msamkara67](https://github.com/msamkara67)
 ## 🧪 License
 
 This project is licensed under the MIT License.
+
 
 
 
