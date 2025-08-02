@@ -1,3 +1,9 @@
+
+import os
+from config import working_dir_name
+
+desktop = os.path.expanduser("~/Desktop")
+base_dir = os.path.join(desktop, working_dir_name)
 import tkinter as tk
 from tkinter import messagebox
 from tkcalendar import Calendar
@@ -6,10 +12,8 @@ from datetime import datetime
 import sys
 
 # Excel yolları
-template_path = r"C:\Users\Muhammet Samkara\Desktop\coin_Updater\coin_data_template.xlsx"
+from config import template_path, data_path
 template_sheet = "Daily Update"
-
-rsi_path = r"C:\Users\Muhammet Samkara\Desktop\coin_Updater\coin_data_180days_top100.xlsx"
 rsi_sheet = "RSI"
 
 def select_date_and_write():
@@ -26,11 +30,11 @@ def select_date_and_write():
             wb_template.close()
 
             # 2. coin_data_180days_top100.xlsx → RSI sayfası N2 hücresi
-            wb_rsi = load_workbook(rsi_path)
+            wb_rsi = load_workbook(data_path)
             if rsi_sheet in wb_rsi.sheetnames:
                 ws_rsi = wb_rsi[rsi_sheet]
                 ws_rsi["N2"].value = date_obj
-                wb_rsi.save(rsi_path)
+                wb_rsi.save(data_path)
                 wb_rsi.close()
             else:
                 messagebox.showerror("Hata", f"'{rsi_sheet}' sayfası bulunamadı.")
