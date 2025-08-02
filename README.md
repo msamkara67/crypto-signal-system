@@ -19,12 +19,30 @@ This project automates the collection and analysis of cryptocurrency market data
 
 ## ✅ Features
 
-* 🔄 Fully automated data pipeline (Yahoo Finance → Excel)
-* 📉 RSI-based classification (Buy/Sell/Warning signals)
-* �� MA crossover detection (Golden/Death Cross logic)
-* 📊 Volume and 3-day RSI volatility signals
-* 📈 Coin-wise dynamic dashboards with interactive charts
-* 🗂️ Daily XLSM archive generation for historical tracking
+✅ Features
+🔁 Fully automated data pipeline
+Seamlessly fetches crypto data (OHLCV) from Binance API and stores it in Excel sheets.
+
+🧠 Multi-layered signal classification
+Supports various signal types: RSI-based (Buy/Sell/Caution), Volume Alert, RSI Stress Move, MA Crossover, and more.
+
+⚙️ Modular configuration with config.py
+Easily customizable system structure for coin lists, thresholds, and date control—making the system fully portable and user-specific.
+
+📈 Technical indicator suite with visualization
+Includes RSI, MA(7/25/99), Volume, MACD, Bollinger Bands, ADX, DI±, and ATR with daily update capability.
+
+🗂️ Chart-wise visual output generation
+Each coin's signal logic is visually represented with auto-generated performance charts.
+
+📊 Interactive Excel dashboards
+Per-coin dashboards with historical trends, dynamic filtering, and multi-indicator insights.
+
+🪪 Daily XLSM archive & formül-free backup
+Ensures historical tracking and stability with formula-free Excel backups for clean signal reading.
+
+🔄 Low-maintenance and clone-ready system
+Easy to replicate, transfer, or update thanks to modular scripts and dynamic chart/image generation.
 
 ---
 
@@ -126,6 +144,7 @@ GitHub: [@msamkara67](https://github.com/msamkara67)
 ## 🧪 License
 
 This project is licensed under the MIT License.
+
 
 
 
