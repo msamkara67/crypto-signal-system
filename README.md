@@ -110,7 +110,7 @@ This will prompt a calendar input to select the date and trigger full pipeline:
 ### 📊 DI+ / DI- Comparison
 ![DI](./DI.png)
 ### 📋 Excel Dashboard Snapshot
-
+![table](./DI.png)
 ---
 ## 👤 Author
 
@@ -122,6 +122,7 @@ GitHub: [@msamkara67](https://github.com/msamkara67)
 ## 🧪 License
 
 This project is licensed under the MIT License.
+
 
 
 
