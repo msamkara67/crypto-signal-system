@@ -93,24 +93,28 @@ This will prompt a calendar input to select the date and trigger full pipeline:
 
 ---
 
-## 📷 Sample Output
+## 📸 Sample Output
 
-## 📊 Technical Indicator Snapshots
-### 📈 Moving Averages (MA7, MA25, MA99)
-![MA7](./MA7.png)
-![MA99](./MA99.png)
-### 📊 RSI + DCV
-![DCV](./DCV.png)
-### 📉 Bollinger Bands Snapshot
-![Bnads](./Bnads.png)
-### 📊 MACD Histogram
-![MACD](./MACD.png)
-### 📊 ADX Trend Strength
-![ADX](./ADX.png)
-### 📊 DI+ / DI- Comparison
-![DI](./DI.png)
-### 📋 Excel Dashboard Snapshot
-![table](./DI.png)
+### 📊 Charts
+
+#### 📈 MA(7) - MA(25) - MA(99)
+![MA7 MA25 MA99](docs/MA99.png)
+
+#### 💹 RSI + DCV
+![RSI + DCV](docs/DCV.png)
+
+#### 🌊 Bollinger Bands Snapshot
+![Bollinger Bands](docs/Bnads.png)
+
+#### 📉 ADX + DI+ / DI-
+![ADX](docs/ADX.png)
+![DI](docs/DI.png)
+
+#### 📈 MACD
+![MACD](docs/MACD.png)
+
+#### 📋 Dashboard Table
+![Dashboard Table](docs/table.png)
 ---
 ## 👤 Author
 
@@ -122,6 +126,7 @@ GitHub: [@msamkara67](https://github.com/msamkara67)
 ## 🧪 License
 
 This project is licensed under the MIT License.
+
 
 
 
